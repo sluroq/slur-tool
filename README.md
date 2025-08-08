@@ -1,18 +1,27 @@
-<h1 align="center">Welcome! I'm sluroq</h1>
-<h4 align="center">I'm here to make everyone's life easier</h4>
+<h1 align="center">Slur Multitool</h1>
 
-<div align="left">
-	<img src="https://github-readme-stats.vercel.app/api?username=sluroq&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=midnight-purple&locale=en&hide_border=false" height="150" alt="stats graph"/>
-	<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sluroq&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=midnight-purple&hide_border=false" height="150" alt="languages graph"  />
-</div>
+<p align="center">
+	<img src="https://img.shields.io/badge/Version-1.0.0-7f5af0" alt="Version Badge">
+	<img src="https://img.shields.io/github/stars/sluroq/slur-tool?style=flat&label=Stars&color=7f5af0" alt="GitHub Stars">
+	<img src="https://img.shields.io/github/languages/top/sluroq/slur-tool?color=7f5af0" alt="Top Language">
+</p>
 
-<p align="left"> 
-<img src="https://komarev.com/ghpvc/?username=sluroq&label=Profile%20views&color=4911b3&style=plastic" alt="sluroq"/>
+<h1 align="center"> <strong>DISCLAIMER</strong> </h1>
 
-<h4>Programming languages I use:</h4>
-<div align="left">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" height="30" right-margin=5px/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5" height="30" right-margin=5px/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" height="30" right-margin=5px/>
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" height="30"/>
-</div>
+<p align="left">
+Slur Tool is provided for educational and entertainment purposes only.<br>
+The developer assumes no responsibility or liability for any misuse or illegal activities performed using this tool.<br>
+You agree to use Slur Tool responsibly and in compliance with all applicable laws and regulations in your country.<br>
+Any unauthorized or unlawful use is strictly prohibited.<br>
+Modifying or changing the code is not allowed, as this software is licensed under the Creative Commons Legal Code.<br>
+By using this software, you acknowledge and accept that you are solely responsible for your actions.
+</p>
+
+<br>
+
+<p align="left">
+    - Available on <strong>Windows</strong> and <strong>Linux</strong> platforms for maximum compatibility.<br>
+    - Fully <strong>Open Source</strong>, licensed under the Creative Commons Legal Code with no <strong>modifications</strong> allowed.<br>
+    - <strong>Free</strong> to download and <strong>easy</strong> to use, with an intuitive interface for both beginners and experts.<br>
+    - Regularly updated to add new features.<br>
+</p>
