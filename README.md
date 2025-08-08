@@ -10,7 +10,7 @@
 
 <p align="left">
 Slur Tool is provided for educational and entertainment purposes only.<br>
-The developer(s) assume no responsibility or liability for any misuse or illegal activities performed using this tool.<br>
+The developer assume no responsibility or liability for any misuse or illegal activities performed using this tool.<br>
 You agree to use Slur Tool responsibly and in compliance with all applicable laws and regulations in your country.<br>
 Any unauthorized or unlawful use is strictly prohibited.<br>
 Modifying or changing the code is not allowed, as this software is licensed under the Creative Commons Legal Code.<br>
