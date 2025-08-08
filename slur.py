@@ -134,9 +134,14 @@ def main():
     colored = Colorate.Vertical(Colors.red_to_purple, banner_modules)
     print(colored)
 
-    while True:
-        user_input = Write.Input(f"\n{os.getlogin()}$slur-> ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
-        break
+    user_input = Write.Input(f"\n{os.getlogin()}$slur-> ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
+    
+    if user_input == "1":
+        subprocess.run(["python", "modules/osint.py"])
+        
+    else: 
+        os.system("cls" if os.name == "nt" else "clear")
+        main()
         
         
 if __name__ == "__main__":
