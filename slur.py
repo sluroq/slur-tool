@@ -12,7 +12,7 @@ try:
     from packaging import version
 except ModuleNotFoundError:
     def install_libraries():
-        libs = ["requests", "pystyle", "packaging"]
+        libs = ["requests", "pystyle", "packaging", "phonenumbers"]
         for lib in libs:
             try:
                 subprocess.run(["python", "-m", "pip", "install", lib], check=True)
