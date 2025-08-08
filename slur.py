@@ -135,7 +135,7 @@ def main():
     print(colored)
 
     while True:
-        user_input = Write.Input(f"\n{os.getlogin()}$slur-> ", Colors.red_to_purple, interval=0, hide_cursor=False)
+        user_input = Write.Input(f"\n{os.getlogin()}$slur-> ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
         break
         
         
