@@ -10,6 +10,7 @@ try:
     import requests
     from pystyle import Colorate, Colors, Write
     from packaging import version
+    
 except ModuleNotFoundError:
     def install_libraries():
         libs = ["requests", "pystyle", "packaging", "phonenumbers"]
@@ -132,17 +133,20 @@ def main():
                   ╚═════════════════════════════════════════════════════╝
     """
     colored = Colorate.Vertical(Colors.red_to_purple, banner_modules)
-    print(colored)
+    print(colored)  
 
     user_input = Write.Input(f"\n{os.getlogin()}$slur-> ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
-    
+
     if user_input == "1":
-        subprocess.run(["python", "modules/osint.py"])
-        
+        subprocess.run(["start", "python", "modules/osint.py"], shell=True) if os.name == 'nt' else subprocess.Popen(["python", "modules/osint.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    elif user_input == "8":
+        subprocess.run(["start", "python", "modules/useful websites.py"], shell=True) if os.name == 'nt' else subprocess.Popen(["python", "modules/useful websites.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
     else: 
         os.system("cls" if os.name == "nt" else "clear")
         main()
-        
+         
         
 if __name__ == "__main__":
     updater_thread = threading.Thread(target=update_software, daemon=True)
