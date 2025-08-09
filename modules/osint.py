@@ -12,7 +12,7 @@ class LoadModules:
     def username_lookup():
         os.system("cls" if os.name == "nt" else "clear")
 
-        username = Write.Input("Enter username: ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
+        username = Write.Input("Enter username-> ", Colors.red_to_purple, interval=0, hide_cursor=False, input_color=Colors.purple)
         
         os.system("cls" if os.name == "nt" else "clear")
         
@@ -483,3 +483,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
